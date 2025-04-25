@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+
+# Python Virtual Environment (adjust folder name if needed, e.g., .venv, env)
+venv/
+# If venv files are somehow directly in root (less common):
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+
+# Model Checkpoints and Saved Models
+*.npz
+# Or more specifically:
+# gpt_checkpoint_*.npz
+# gpt_model.npz
+
+# Generated Logs and Plots
+loss_log.csv
+loss_plot.png
+
+# Generated Tokenizer Files
+spm.model
+spm.vocab
+
+# Large Dataset Files (Uncomment if they are large/should not be tracked)
+# dataset.txt
+# Puffin.jsonl
+# tiny_shakespeare.txt
+# tiny_shakespeare1.txt
+
+# OS-specific files (Optional but good practice)
+.DS_Store
+Thumbs.db
